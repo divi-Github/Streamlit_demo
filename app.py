@@ -42,18 +42,19 @@ def instructions_tab():
       **OCR → LLM → Structured JSON**
 
     ### 📌 Notes
+    For this Demo:
     - No database is used
     - Output lives in session memory
     - Refreshing the page resets results
 
     ---
-    **NLD India Software Pvt. Ltd.**
+    **Created by: NLD India Software Pvt. Ltd.**
     """)
 
 # -------------------- PROCESS FILES TAB --------------------
 
 def process_files_tab():
-    st.header("🧠 Process Files - Capture Platform (Unified Model)")
+    st.header("🧠 Process Files - Capture Platform")
     # processing_endpoint = "/OcrBytes"
     
     customer_input_method = st.radio(
