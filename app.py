@@ -11,10 +11,12 @@ st.set_page_config(
 )
 
 # API_BASE_URL = "http://127.0.0.1:5800/api"
-API_BASE_URL = "https://ride-popularity-wrestling-uncle.trycloudflare.com/api"
+ 
+API_BASE_URL = "https://charges-providence-unions-literature.trycloudflare.com/api"
 PROCESSING_ENDPOINT = "/process/OcrBytes"
 
 CUSTOMER_NAMES = [
+    "freightline",
     "voorbeelden",
     "allseas",
     "visdeal",
